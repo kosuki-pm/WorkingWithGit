@@ -375,7 +375,7 @@
           <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="シーケンス" sap:VirtualizedContainerService.HintSize="450,197.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_48">
+      <Sequence DisplayName="シーケンス" sap:VirtualizedContainerService.HintSize="496,322.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_48">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="テスト" />
           <Variable x:TypeArguments="ubic:Files" Name="FileInfo" />
@@ -388,7 +388,15 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="メッセージ ボックス" sap:VirtualizedContainerService.HintSize="388,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;check &quot;&amp;test]" />
+        <Assign DisplayName="代入" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[test]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">sss</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="メッセージ ボックス" sap:VirtualizedContainerService.HintSize="434,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;check &quot;&amp;test]" />
       </Sequence>
     </FlowStep>
   </Flowchart>
