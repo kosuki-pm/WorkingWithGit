@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UCmZlQCz8E-1fmg8OYdvAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://html.cdn.contentraven.com/crcloud/crscorm/uploads/uipath_lms_11218/encryptedfile/572246/v3.0/scormcontent/index.html#/lessons/EIismvpWvH8gTlwi7Yv0Kye-mtyohd4C" CvTextArea="737, 557, 102, 34" CvTextArgument="02/10" CvType="Text" DesignTimeRectangle="740, 541, 858, 60" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'02/10'" FullSelectorArgument="&lt;webctrl src='https://html.cdn.contentraven.com/crcloud/crscorm/ssla/player.ht*' tag='IFRAME' /&gt;&lt;webctrl id='jca_course_player' tag='IFRAME' /&gt;&lt;webctrl id='content-frame' tag='IFRAME' /&gt;&lt;webctrl aaname='02/10' parentid='page-wrap' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://html.cdn.contentraven.com/crcloud/crscorm/ssla/player.ht*' tag='IFRAME' /&gt;&lt;webctrl id='jca_course_player' tag='IFRAME' /&gt;&lt;webctrl id='content-frame' tag='IFRAME' /&gt;&lt;webctrl aaname='02/10' parentid='page-wrap' tag='DIV' type='' class='quiz-card__counter brand--color brand--ui' check:innerText='02/10' /&gt;" Guid="5fabca50-4dd3-47de-8aee-cda495bdd08d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Academy' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="64f6435868aa630494e9292f8c3b91fa.png" xmlns="">0auV0rFsXyka4d7tEjPMqTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

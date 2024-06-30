@@ -1,0 +1,16 @@
+﻿{
+  "Name": "新しい要素",
+  "Type": "Element",
+  "TaxonomyType": "要素",
+  "Id": "wmH2ZFWi8UiGtGRcFkzy3A",
+  "Reference": "dCHL8I39lkOjXUj0dGkYGw/wmH2ZFWi8UiGtGRcFkzy3A",
+  "ParentRef": "dCHL8I39lkOjXUj0dGkYGw/reT7wBUO-0Wi5l8Ky1DHyQ",
+  "Created": "2024-05-26T15:26:56.8309014Z",
+  "Updated": "2024-05-26T15:28:02.5021033Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

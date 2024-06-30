@@ -1,0 +1,15 @@
+﻿{
+  "Name": "academy",
+  "Type": "Screen",
+  "Id": "reT7wBUO-0Wi5l8Ky1DHyQ",
+  "Reference": "dCHL8I39lkOjXUj0dGkYGw/reT7wBUO-0Wi5l8Ky1DHyQ",
+  "ParentRef": "dCHL8I39lkOjXUj0dGkYGw/IRXm1-jaD0mchclXp_gUWg",
+  "Created": "2024-05-26T15:26:29.4312178Z",
+  "Updated": "2024-05-26T15:26:42.0454361Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

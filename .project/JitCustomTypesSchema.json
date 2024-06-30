@@ -1,0 +1,547 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "HrBGnS2wAQzT26Mj9YeAlMbcHaDdxUd4gbA8oCxwBkZfvgeXg6IgcIe6reZOfEQAjRxEZ+VRfqB7X4x8L+p5ig==",
+        "bundleName": "C7E49AFE638_status_updates_Create",
+        "entitiesBundle": {
+          "Types": {
+            "created_by": {
+              "name": "created_by",
+              "properties": [
+                {
+                  "name": "gid",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "resource_type",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "parent": {
+              "name": "parent",
+              "properties": [
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "gid",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "resource_type",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "status_updates_Create": {
+              "name": "status_updates_Create",
+              "properties": [
+                {
+                  "name": "gid",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "status_type",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "resource_type",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "created_at",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonConverterAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "{\r\n  \"ClrType\": \"UiPath.IntegrationService.Activities.Runtime.Helpers.DateTimeOffsetMaskDeserializer, UiPath.IntegrationService.Activities.Runtime\"\r\n}",
+                            "type": {
+                              "ClrType": "System.Activities.DesignViewModels.EntityTypeReference, System.Activities.ViewModels"
+                            }
+                          },
+                          {
+                            "Value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSXXX\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "hearted",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "title",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "resource_subtype",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "liked",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "html_text",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "num_likes",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "text",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "num_hearts",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "modified_at",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "created_by",
+                  "type": {
+                    "definitionName": "created_by"
+                  }
+                },
+                {
+                  "name": "parent",
+                  "type": {
+                    "definitionName": "parent"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C7E49AFE638_status_updates_Create",
+        "hash": "SHJCR25TMndBUXpUMjZNajlZZUFsTWJjSGFEZHhVZDRnYkE4b0N4d0JrWmZ2Z2VYZzZJZ2NJZTZyZVpPZkVRQWpSeEVaK1ZSZnFCN1g0eDhMK3A1aWc9PQ",
+        "assemblyName": "C7E49AFE638_status_u.CriR447j91R1gALut0xk4N"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "GNxoUCKfBqxl3DtxntvgoYYDbL/cyIYjsngoHsUyjWvdxIfUM4xUATIQf/yPVzA97fO9hkRUsL6bksnj/qQaBw==",
+        "bundleName": "C766E56FE7E_get_shared_links_Retrieve",
+        "entitiesBundle": {
+          "Types": {
+            "audience": {
+              "name": "audience",
+              "properties": [
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "disallowed_reason": {
+              "name": "disallowed_reason",
+              "properties": [
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "audience_options": {
+              "name": "audience_options",
+              "properties": [
+                {
+                  "name": "audience",
+                  "type": {
+                    "definitionName": "audience"
+                  }
+                },
+                {
+                  "name": "disallowed_reason",
+                  "type": {
+                    "definitionName": "disallowed_reason"
+                  }
+                },
+                {
+                  "name": "allowed",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "requested_visibility": {
+              "name": "requested_visibility",
+              "properties": [
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "resolved_visibility": {
+              "name": "resolved_visibility",
+              "properties": [
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "policy": {
+              "name": "policy",
+              "properties": [
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "resolved_policy": {
+              "name": "resolved_policy",
+              "properties": [
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "visibility_policies": {
+              "name": "visibility_policies",
+              "properties": [
+                {
+                  "name": "disallowed_reason",
+                  "type": {
+                    "definitionName": "disallowed_reason"
+                  }
+                },
+                {
+                  "name": "policy",
+                  "type": {
+                    "definitionName": "policy"
+                  }
+                },
+                {
+                  "name": "resolved_policy",
+                  "type": {
+                    "definitionName": "resolved_policy"
+                  }
+                },
+                {
+                  "name": "allowed",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "link_permissions": {
+              "name": "link_permissions",
+              "properties": [
+                {
+                  "name": "audience_options",
+                  "type": {
+                    "definitionName": "audience_options"
+                  },
+                  "isCollection": true
+                },
+                {
+                  "name": "requested_visibility",
+                  "type": {
+                    "definitionName": "requested_visibility"
+                  }
+                },
+                {
+                  "name": "resolved_visibility",
+                  "type": {
+                    "definitionName": "resolved_visibility"
+                  }
+                },
+                {
+                  "name": "visibility_policies",
+                  "type": {
+                    "definitionName": "visibility_policies"
+                  },
+                  "isCollection": true
+                },
+                {
+                  "name": "allow_comments",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "allow_download",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_allow_download",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_disallow_download",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_remove_expiry",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_remove_password",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_revoke",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_set_expiry",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "can_set_password",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "team_restricts_comments",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "get_shared_links_Retrieve": {
+              "name": "get_shared_links_Retrieve",
+              "properties": [
+                {
+                  "name": "link_permissions",
+                  "type": {
+                    "definitionName": "link_permissions"
+                  }
+                },
+                {
+                  "name": "client_modified",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonConverterAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "{\r\n  \"ClrType\": \"UiPath.IntegrationService.Activities.Runtime.Helpers.DateTimeOffsetMaskDeserializer, UiPath.IntegrationService.Activities.Runtime\"\r\n}",
+                            "type": {
+                              "ClrType": "System.Activities.DesignViewModels.EntityTypeReference, System.Activities.ViewModels"
+                            }
+                          },
+                          {
+                            "Value": "\"yyyy-MM-dd'T'HH:mm:ssZ\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "name",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "path_lower",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "preview_type",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "rev",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "server_modified",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.DateTimeOffset, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonConverterAttribute, Newtonsoft.Json"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "{\r\n  \"ClrType\": \"UiPath.IntegrationService.Activities.Runtime.Helpers.DateTimeOffsetMaskDeserializer, UiPath.IntegrationService.Activities.Runtime\"\r\n}",
+                            "type": {
+                              "ClrType": "System.Activities.DesignViewModels.EntityTypeReference, System.Activities.ViewModels"
+                            }
+                          },
+                          {
+                            "Value": "\"yyyy-MM-dd'T'HH:mm:ssZ\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "size",
+                  "type": {
+                    "ClrType": "System.Nullable`1[[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "tag",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "url",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C766E56FE7E_get_shared_links_Retrieve",
+        "hash": "R054b1VDS2ZCcXhsM0R0eG50dmdvWVlEYkwvY3lJWWpzbmdvSHNVeWpXdmR4SWZVTTR4VUFUSVFmL3lQVnpBOTdmTzloa1JVc0w2YmtzbmovcVFhQnc9PQ",
+        "assemblyName": "C766E56FE7E_get_shar.4hBJT4GZmQS1HdEPw78hGC2"
+      }
+    }
+  ]
+}
